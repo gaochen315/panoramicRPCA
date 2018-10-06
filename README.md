@@ -5,6 +5,9 @@ Panoramic Robust Principal Component Analysis (PRPCA) method, an algorithm
 for producing robust estimates of the foreground and background of a scene
 from possibly corrupted video with arbitrary camera motion.
 
+See the [project page](https://gaochen315.github.io/pRPCA/) for more details. Please contact Chen Gao (chengao@vt.edu) if you have any questions.
+
+<img src='PRPCA.gif'>
 
 ## Quickstart
 
@@ -51,7 +54,7 @@ Other Functions
     foreground-background RGB video reconstruction
 - `correctLighting.m`: Attempts to correct non-uniform lighting effects in
     a panoramic image
-- `formatForDisplay.m`: Formats a decomposition for display by approratiely
+- `formatForDisplay.m`: Formats a decomposition for display by appropriately
     scaling and clamping the components to [0, 1]
 - `OptShrink.m`: Implementation of the data-driven OptShrink low-rank
     matrix estimator
@@ -80,19 +83,20 @@ details.
 If you use this code, we request that you cite the following papers:
 
 ```
+
 @article{moore2017panoramic,
-author={Moore, B. E. and Gao, C. and Nadakuditi, R. R.},
-title={Panoramic robust {PCA} for foreground-background separation on noisy, free-motion camera video},
-year={2017},
-journal={\href{https://arxiv.org/abs/1712.06229}{arXiv:1712.06229}},
+author  = Moore, B. E. and Gao, C. and Nadakuditi, R. R.},
+title   = {Panoramic robust {PCA} for foreground-background separation on noisy, free-motion camera video},
+year    = {2017},
+journal = {\href{https://arxiv.org/abs/1712.06229}{arXiv:1712.06229}}
 }
 
 @inproceedings{gao2017augmented,
-author={Gao, C. and Moore, B. E. and Nadakuditi, R. R},
-title={Augmented robust {PCA} for foreground-background separation on noisy, moving camera video},
-booktitle={{IEEE} Global Conference on Signal and Information Processing ({GlobalSIP})},
-month={November},
-year={2017},
-pages={1240-1244}, 
+author    = {Gao, C. and Moore, B. E. and Nadakuditi, R. R},
+title     = {Augmented robust {PCA} for foreground-background separation on noisy, moving camera video},
+booktitle = {{IEEE} Global Conference on Signal and Information Processing ({GlobalSIP})},
+month     = {November},
+year      = {2017},
+pages     = {1240-1244}
 }
 ```
