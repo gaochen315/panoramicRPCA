@@ -7,7 +7,8 @@ from possibly corrupted video with arbitrary camera motion.
 
 See the [project page](https://gaochen315.github.io/pRPCA/) for more details. Please contact Chen Gao (chengao@vt.edu) if you have any questions.
 
-<img src='PRPCA.gif'>
+<img src='Tennis_PRPCA.gif'>
+<img src='Tennis_Pano.gif'>
 
 ## Quickstart
 
