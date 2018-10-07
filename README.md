@@ -1,9 +1,10 @@
 # Panoramic Robust PCA
 
-This package contains the implementation and example usages of the 
+This package contains the implementation and example usages of the
 Panoramic Robust Principal Component Analysis (PRPCA) method, an algorithm
 for producing robust estimates of the foreground and background of a scene
-from possibly corrupted video with arbitrary camera motion.
+from possibly corrupted video with arbitrary camera motion. For more
+information, see the [project website](https://gaochen315.github.io/pRPCA).
 
 Please contact [Chen Gao](mailto:chengao@vt.edu?subject=PRPCA%20code) if you
 have any questions.
@@ -87,18 +88,19 @@ details.
 If you use this code, we request that you cite the following papers:
 
 ```
-@inproceedings{AugRPCA,
-    author    = {Gao, Chen and Moore, Brian E and Nadakuditi, Raj Rao}, 
-    title     = {Augmented robust PCA for foreground-background separation on noisy, moving camera video}, 
-    booktitle = {Signal and Information Processing (GlobalSIP), 2017 IEEE Global Conference on}
+@inproceedings{moore2017panoramic,
+    author    = {Moore, Brian E* and Gao, Chen* and Nadakuditi, Raj Rao},
+    title     = {Panoramic Robust PCA for Foreground-Background Separation on Noisy, Free-Motion Camera Video},
+    journal   = {arXiv:1712.06229}
+    year      = {2017}
+}
+
+@inproceedings{gao2017augmented,
+    author    = {Gao, Chen and Moore, Brian E and Nadakuditi, Raj Rao},
+    title     = {Augmented robust PCA for foreground-background separation on noisy, moving camera video},
+    booktitle = {2017 IEEE Global Conference on Signal and Information Processing (GlobalSIP)}
     month     = {November},
     year      = {2017},
     pages     = {1240-1244}
-}
-@inproceedings{PRPCA,
-    author    = {Moore, Brian E* and Gao, Chen* and Nadakuditi, Raj Rao}, 
-    title     = {Panoramic Robust PCA for Foreground-Background Separation on Noisy, Free-Motion Camera Video}, 
-    journal   = {arXiv:1712.06229}
-    year      = {2017}
 }
 ```
