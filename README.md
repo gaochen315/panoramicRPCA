@@ -5,10 +5,13 @@ Panoramic Robust Principal Component Analysis (PRPCA) method, an algorithm
 for producing robust estimates of the foreground and background of a scene
 from possibly corrupted video with arbitrary camera motion.
 
-See the [project page](https://gaochen315.github.io/pRPCA/) for more details. Please contact Chen Gao (chengao@vt.edu) if you have any questions.
+Please contact [Chen Gao](mailto:chengao@vt.edu?subject=PRPCA%20code) if you
+have any questions.
 
-<img src='Tennis_PRPCA.gif'>
-<img src='Tennis_Pano.gif'>
+<img src='results/tennis_PRPCA.gif'>
+
+<img src='results/tennis_decomp.gif'>
+
 
 ## Quickstart
 
