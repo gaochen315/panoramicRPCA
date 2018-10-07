@@ -15,6 +15,8 @@
 % November 2017, pp. 1240-1244.
 %
 
+addpath('src/');
+
 %% Noiseless (grayscale)
 
 % Load data
@@ -99,8 +101,8 @@ p = 0.2;  % salt and pepper noise probability
 M0 = (rand(size(Ytrue)) < 0.5 * p);
 M1 = (rand(size(Ytrue)) < 0.5 * p);
 Ynoisy = Ytrue;
-Ynoisy(M0) = 1;                        
-Ynoisy(M1) = 0; 
+Ynoisy(M0) = 1;
+Ynoisy(M1) = 0;
 PlayMovie(Ynoisy)
 
 % Perform PRPCA
@@ -140,7 +142,7 @@ imshow(keyframes);
 title('Key frames of decomposition');
 
 %% Noisy (color)
- 
+
 rng(1);
 
 % Load homographies
@@ -159,14 +161,14 @@ p = 0.2;  % salt and pepper noise probability
 M0 = (rand(size(Ytrue)) < 0.5 * p);
 M1 = (rand(size(Ytrue)) < 0.5 * p);
 Ynoisy = Ytrue;
-Ynoisy(M0) = 1;                        
-Ynoisy(M1) = 0; 
+Ynoisy(M0) = 1;
+Ynoisy(M1) = 0;
 
 % Perform PRPCA
 opts = struct();
 opts.nIters = 150;
 opts.nItersS = 10;
-opts.T = T; 
+opts.T = T;
 opts.lambdaS = 0.02;
 opts.lambdaE = 0.02;
 [pano, L, E, S, Lreg, Ereg, Sreg] = PRPCA(Ynoisy,opts);
@@ -197,4 +199,3 @@ keyframes = [
 figure();
 imshow(keyframes);
 title('Key frames of decomposition');
-
