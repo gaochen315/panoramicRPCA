@@ -6,11 +6,10 @@ for producing robust estimates of the foreground and background of a scene
 from possibly corrupted video with arbitrary camera motion. For more
 information, see the [project website](https://gaochen315.github.io/pRPCA).
 
-Please contact [Chen Gao](mailto:chengao@vt.edu?subject=PRPCA%20code) if you
-have any questions.
+If you have any questions, contact
+[Chen Gao](mailto:chengao@vt.edu?subject=PRPCA%20code).
 
 <img src='results/tennis_PRPCA.gif'>
-
 <img src='results/tennis_decomp.gif'>
 
 
