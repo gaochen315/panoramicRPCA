@@ -93,6 +93,15 @@ If you use this code, we request that you cite the following papers:
     journal   = {arXiv:1712.06229}
     year      = {2017}
 }
+@article{moore2017panoramic,
+    author    = {Moore, Brian E* and Gao, Chen* and Nadakuditi, Raj Rao},
+    title     = {Panoramic Robust PCA for Foreground-Background Separation on Noisy, Free-Motion Camera Video},
+    journal   = {IEEE Transactions on Computational Imaging},
+    volume    = {5},
+    number    = {2},
+    pages     = {195--211},
+    year      = {2019},
+}
 
 @inproceedings{gao2017augmented,
     author    = {Gao, Chen and Moore, Brian E and Nadakuditi, Raj Rao},
