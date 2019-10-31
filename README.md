@@ -87,12 +87,6 @@ details.
 If you use this code, we request that you cite the following papers:
 
 ```
-@inproceedings{moore2017panoramic,
-    author    = {Moore, Brian E* and Gao, Chen* and Nadakuditi, Raj Rao},
-    title     = {Panoramic Robust PCA for Foreground-Background Separation on Noisy, Free-Motion Camera Video},
-    journal   = {arXiv:1712.06229}
-    year      = {2017}
-}
 @article{moore2017panoramic,
     author    = {Moore, Brian E* and Gao, Chen* and Nadakuditi, Raj Rao},
     title     = {Panoramic Robust PCA for Foreground-Background Separation on Noisy, Free-Motion Camera Video},
